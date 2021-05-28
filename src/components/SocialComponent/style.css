@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+.sansPro{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bold{
+    font-weight: bolder;
+}
+
+.component-container{
+    width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 812px;
+    border-radius: 35px;
+    border: 3px solid black;
+}
+.nav{
+    display: flex;
+    width: 95%;
+    margin: 10px auto 0;
+    justify-content: space-evenly;
+    height: 6%;
+}
+.nav-option{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #EBEBEB;
+}
+.nav-option .dot{
+    width: 10px;
+    height: 10px;
+    background-color: #3BDB9B;
+    border-radius: 15px;
+    position: relative;
+    top: -15px;
+    left: -30px;
+}
+.nav-option:first-child{
+    border-bottom: 3px solid #6D6D6D;
+}
+.social-profile{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 10%;
+    margin: 10px 0;
+}
+.profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+
+}
+.profile-image img{
+    border-radius: 50px;
+    width: 95%;
+    border: 1.5px solid #EBEBEB;
+}
+.profile-info{
+    width: 50%;
+    align-self: center;
+}
+.profile-info p{
+    margin: 0;
+}
+.profile-info .name{
+    font-size: 17px;
+}
+.profile-info .time{
+    font-size: 13px;
+    color: #a4b0b8;
+}
+.chat{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chat img{
+    width: 27px;
+}
+.social-content{
+    display: flex;
+    flex-wrap: wrap;
+    height: 72%;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content-image{
+    position: relative;
+    height: fit-content;
+}
+.content-image .eye{
+    position: absolute;
+    width: 25px;
+    top: 100px;
+    left: 160px;
+}
+.content-image img{
+    width: 100%;
+    border-radius: 25px;
+    filter: sepia(.75);
+}
+.content-text{
+    margin: -170px 0 0 0;
+}
+.content-text p:first-child{
+    color: #a4b0b8;
+    text-align: justify;
+    font-size: 17px;
+}
+.content-text p:last-child{
+    font-size: 17px;
+}
+.bottom-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 9%;
+}
+.bottom-menu-option{
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom-menu-option img{
+    transform: scale(0.12);
+}
+.bottom-menu-option:nth-child(2) img{
+    transform: scale(0.09);
+}
+.bottom-menu-option:nth-child(4) img{
+    transform: scale(0.06);
+}
