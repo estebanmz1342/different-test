@@ -7,7 +7,7 @@ import star from "../../resources/9/star.png";
 import star2 from "../../resources/9/star2.png";
 import star3 from "../../resources/9/star3.png";
 import search from "../../resources/9/search.png";
-import image from "../../resources/9/image.jpg";
+import image1 from "../../resources/9/image.jpg";
 
 
 const CourseComponent = () => {
@@ -32,7 +32,7 @@ const CourseComponent = () => {
             </div>
 
             <div className="illustration">
-                <img src={image} alt="illstration image"/>
+                <img src={image1} alt="illstration image"/>
             </div>
             <div className="offer">
                 <div className="left-side">
